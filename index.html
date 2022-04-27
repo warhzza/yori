@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="simple-lightbox.css" />
+
+    <title>Yori's Hub</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="yori">Yori's</span><span class="hub">Hub</span
+          ><span class="fist">&#9996;</span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Yori's world</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav-link"
+            >stakeholders</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="world"> Yori's world is here to showcase to you a  </span> <br />
+          <span class="woman"> strong woman</span>
+        </h1>
+        <p>
+          On this blog, a young lady Oluwadmilola takes us through her world <br />
+          She also shares memories of her loved one's to the world.
+        </p>
+        <a class="btn blue" href="#">Learn More</a>
+        <a class="btn green" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe
+          width="560"
+          height="315"
+          src="https://photos.app.goo.gl/VZCvqNRK9MW2XRNHA"
+          title="Google drive"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Yori Home</h3>
+      <p>
+        Our primary objective is to bring to our Lovers Oluwadamilola goings
+      </p>
+
+      <h3>Its not About her daily hustles and bustles alone</h3>
+      <p>
+        We also bring to you, memories and moments captured around the Town..
+      </p>
+    </section>
+
+    <!-- Lightbox image gallery
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="images/Date.jpg" class="big">
+          <img
+            src="images/Date.jpg"
+            alt="On a Date"
+            title="DD"
+          />
+        </a>
+
+        <a href="images/wedding.jpg" class="big">
+          <img
+            src="images/Wedding.jpg"
+            alt="A friend's wedding"
+            title="Wed"
+          />
+        </a>
+
+        <a href="images/Brt.png" class="big">
+          <img
+            src="images/Brt.png"
+            alt="At Brt Terminal"
+            title="Brt"
+          />
+        </a>
+
+        <a href="images/Shawarma.png" class="big">
+          <img
+            src="images/Shawarma.png"
+            alt="taking a treat"
+            title="chops"
+          />
+        </a>
+
+        <a href="images/Onipanu.jpg" class="big"
+          ><img
+            src="images/Onipanu.jpg"
+            alt="At work"
+            title="Atm Duties"
+          />
+        </a>
+
+        <a href="images/Ferry.png" class="big">
+          <img
+            src="images/Ferry.png"
+            alt="Road to beach"
+            title="Ferry"
+          />
+        </a>
+      </div>
+    </section> -->
+
+    <!-- Yori Stakeholders -->
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="images/Spar.jpg" alt="Oluwadamilola Olayori" />
+            <p class="name">Oluwadamilola Olayori</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-2">
+            <img src="images/Adex.png" alt="Adebisi" />
+            <p class="name">Adebisi</p>
+            <p class="role">Manager</p>
+          </div>
+          <div class="person-3">
+            <img src="images/Usman.jpg" alt="Usman" />
+            <p class="name">Usman</p>
+            <p class="role">Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2022. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="images/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="index.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="simple-lightbox.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
